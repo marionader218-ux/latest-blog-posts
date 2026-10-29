@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+     grid-template-columns: repeat(3 , 1fr);
+     padding-top: 50px;
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px 15px 0  0;
+    overflow: hidden;
+}
+.card1 {
+    width: 415px;
+    height:400px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.4 ease;
+}
+.card1:hover {
+    transform: translateY(-5x);
+}
+img:hover {
+    transform: scale(1.1);
+} 
+.card2 {
+    width: 415px;
+    height:400px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.4 ease;
+}
+.card2:hover {
+    transform: translateY(-5x);
+}
+img:hover {
+    transform: scale(1.1);
+} 
+.card3 {
+    width: 415px;
+    height:400px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5px;
+    overflow: hidden;
+    transition: transform 0.4 ease;
+}
+.card3:hover {
+    transform: translateY(-5x);
+}
+img:hover {
+    transform: scale(1.05);
+} 
+.image {
+    position: relative;
+    overflow: hidden;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease;
+}
+.card1:hover .image img {
+    transform: scale(1.05);
+}
+.card2:hover .image img {
+    transform: scale(1.05);
+}
+.card3:hover .image img {
+    transform: scale(1.05);
+}
+.card4:hover .image img {
+    transform: scale(1.05);
+}
+.category {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #0785ed;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 2;
+}
+.card:hover .image {
+    transform: scale(1.05);
+}
+.card1{
+   transition: transform 0.3s ease; 
+}
+.card1:hover{
+   transform: translateY(-3px);
+}
+.card2:hover{
+   transform: translateY(-3px);
+}
+.card3:hover{
+   transform: translateY(-3px);
+}
+.card4:hover{
+   transform: translateY(-3px);
+}
+image img {
+    transition: transform 0.3s ease;
+}
+.card4 {
+    width: 415px;
+    height:400px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.4 ease;
+}
